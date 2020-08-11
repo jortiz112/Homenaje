@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#main {
+    min-width: 249px; /* para que no se reduzca demasiado el contenedor principal */
+    margin: 0.6% 0.6%;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eee;
+    
+    /*  ***********FLEXBOX***************************  */
+    display: flex; /* nuevo centrado */ 
+    flex-direction:column;  /* nuevo centrado */
+    flex-wrap: wrap;   /* nuevo centrado  */    
+    justify-content: center; /* nuevo centrado  */
+    align-items: center; /* nuevo centrado  */
+    /*  *********************************************  */
+}
+
+#tribute-info {
+    max-width: 56%;
+    text-align: justify;
+    line-height: 1.5em;  /* espacios entre líneas */
+
+}
+
+#title {
+    text-align: center;
+}
+
+#image {
+    max-width: 100%; /* imagen responsive*/
+    display: block;
+    height: auto;  /* imagen responsive*/
+    margin: 0 auto;
+    border-radius: 5px;
+}
+#img-caption {
+    margin: 5px 0 5px 50px;
+}
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+#image:hover {
+    transform: scale(1.01);
+}
+
+#tribute-link {
+    color:blue;
+}
+
+#piePagina{
+    
+    clear: both;
+    width: 100%;
+    height: 60px;
+    background-color: #1293d4;
+}
+
+footer p{
+    color: #fff;
+    padding-top: 20px; 
+    text-align: center;
+    
+}
+
+
+
+
+
+
