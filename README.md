@@ -1,4 +1,5 @@
-Responsive Web Design Projects - Build a Tribute Page
+RESPONSIVE WEB DESIGN PROJECTS - BUILD A TRIBUTE PAGE
+
 
 Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
 
