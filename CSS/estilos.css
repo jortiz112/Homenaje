@@ -38,7 +38,7 @@
     border-radius: 5px;
 }
 #img-caption {
-    margin: 5px 0 5px 50px;
+    margin: 0.5vw 0 1vw 3vw; /* posición responsive */
 }
 figure {
     display: block;
@@ -56,19 +56,54 @@ figure {
     color:blue;
 }
 
-#piePagina{
-    
+#piePagina {    
     clear: both;
     width: 100%;
     height: 60px;
     background-color: #1293d4;
+    /* ***************GRID CSS************* */
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    /* ************************************ */
 }
 
-footer p{
+footer p {
+    justify-self: center;
+    align-self: center;  /* GRID CSS centrado vertical de elementos  */
     color: #fff;
-    padding-top: 20px; 
-    text-align: center;
-    
+    font-size: 1.1vw;
+
+       
+}
+
+/* Media querys para dispositivos diferentes al PC */
+@media (max-width: 720px) {   
+    footer p {
+        font-size: 2.5vw; /* texto responsive a la pantalla con unidades vh y vw*/
+    }
+
+}
+
+@media (max-width: 669px) {  
+    footer p {
+        font-size: 2.5vw; /* texto responsive a la pantalla con unidades vh y vw*/
+    }
+
+}
+
+@media (max-width: 536px) {  
+    footer p {
+        font-size: 2.5vw; /* texto responsive a la pantalla con unidades vh y vw*/
+    }
+
+}
+
+@media (max-width: 448px) {   
+    footer p {
+        font-size: 2.5vw; /* texto responsive a la pantalla con unidades vh y vw*/
+    }
+
 }
 
 
